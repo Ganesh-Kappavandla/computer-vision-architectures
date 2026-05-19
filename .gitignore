@@ -1,0 +1,18 @@
+# Python environment & system cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Deep Learning weights and checkpoints (CRITICAL to block)
+*.pth
+*.pt
+*.h5
+*.weights
+checkpoints/
+
+# Exclude local training datasets
+source_data/*
+!source_data/.gitkeep
